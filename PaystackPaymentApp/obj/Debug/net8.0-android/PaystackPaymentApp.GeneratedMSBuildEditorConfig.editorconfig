@@ -1,0 +1,65 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PaystackPaymentApp
+build_property.ProjectDir = C:\Users\ADMIN\source\repos\PaystackPaymentApp\PaystackPaymentApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/AwaitingConfirmationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.AwaitingConfirmationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AwaitingConfirmationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AwaitingConfirmationPage.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DashboardPage.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/PaymentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.PaymentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = PaymentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = PaymentPage.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/ADMIN/source/repos/PaystackPaymentApp/PaystackPaymentApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PaystackPaymentApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

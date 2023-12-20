@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="{DynamicResource PageBackgroundColor}"
+             x:Class="PaystackPaymentApp.MainPage">
+
+    <StackLayout>
+        <!-- Buttons for selecting packages -->
+        <Button Text="Starter" Clicked="OnPackageSelected" CommandParameter="Starter"/>
+        <Label Text="Amount: $19.99" />
+        <Label Text="Details: Basic features included." />
+
+        <Button Text="Premium" Clicked="OnPackageSelected" CommandParameter="Premium"/>
+        <Label Text="Amount: $39.99" />
+        <Label Text="Details: More advanced features included." />
+
+        <Button Text="Advance" Clicked="OnPackageSelected" CommandParameter="Advance"/>
+        <Label Text="Amount: $59.99" />
+        <Label Text="Details: Full access to all features." />
+    </StackLayout>
+
+</ContentPage>

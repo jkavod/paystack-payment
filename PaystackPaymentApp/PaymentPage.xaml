@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="{DynamicResource PageBackgroundColor}"
+             x:Class="PaystackPaymentApp.PaymentPage">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left column for payment methods -->
+        <StackLayout Grid.Column="0">
+            <Button Text="Card" Clicked="OnPaymentMethodSelected" CommandParameter="Card"/>
+            <Button Text="Bank Transfer" Clicked="OnPaymentMethodSelected" CommandParameter="BankTransfer"/>
+            <Button Text="USSD" Clicked="OnPaymentMethodSelected" CommandParameter="USSD"/>
+            <Button Text="QR Code" Clicked="OnPaymentMethodSelected" CommandParameter="QRCode"/>
+        </StackLayout>
+
+        <!-- Right column for selected payment method -->
+        <StackLayout Grid.Column="1">
+            <!-- Display selected package information -->
+            <Label Text="{Binding SelectedPackage}" />
+
+            <!-- Placeholder for selected payment method content -->
+            <ContentView x:Name="PaymentMethodContentView">
+                <StackLayout>
+                    <!-- Content for Card payment method -->
+                    <ContentView x:Name="CardPaymentContent" IsVisible="False">
+                        <Label Text="Card Payment Method Content Goes Here" />
+                    </ContentView>
+
+                    <!-- Content for Bank Transfer payment method -->
+                    <ContentView x:Name="BankTransferContent" IsVisible="False">
+                        <Label Text="Bank Transfer Payment Method Content Goes Here" />
+                    </ContentView>
+
+                    <!-- Content for USSD payment method -->
+                    <ContentView x:Name="USSDContent" IsVisible="False">
+                        <Label Text="USSD Payment Method Content Goes Here" />
+                    </ContentView>
+
+                    <!-- Content for QR Code payment method -->
+                    <ContentView x:Name="QRCodeContent" IsVisible="False">
+                        <Label Text="QR Code Payment Method Content Goes Here" />
+                    </ContentView>
+                </StackLayout>
+            </ContentView>
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
